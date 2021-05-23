@@ -1,0 +1,181 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta name="viewport" content="width=device-width,initial-scale=1.0" /><link href="/Portal/Services/MGCGV/css/index.css" rel="stylesheet" type="text/css" /><title>
+	Mahatma Gandhi Chitrakoot Gramodaya Vishwavidyalaya (MGCGV)
+</title>
+    <!-- slider -->
+    <link href="/Portal/Services/MGCGV/css/custom_scroll.css" rel="stylesheet" type="text/css" /><link href="/Portal/Services/MGCGV/css/tab_media.css" rel="stylesheet" type="text/css" media="only screen and (min-width:600px) and (max-width:999px)" /><link href="/Portal/Services/MGCGV/css/mobile_media.css" rel="stylesheet" type="text/css" media="only screen and (min-width:320px) and (max-width:599px)" />
+
+    <script type="text/javascript">
+        // You can also use "$(window).load(function() {"
+        $(function () {
+
+            // Slideshow 1
+            $("#slider1").responsiveSlides({
+                maxwidth: 1600,
+                speed: 800
+            });
+        });
+    </script>
+
+    <!-- scroll -->
+    <!--    <script src="js/2.1.3.min.js" type="text/javascript"></script>-->
+    <script src="/portal/Services/MGCGV/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/portal/Services/MGCGV/js/custom_scroll.js" type="text/javascript"></script>
+    <script src="/portal/Services/MGCGV/js/common.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="/Portal/headers/MPOnlineHeader/pbkdf2.js"></script>
+    <script type="text/javascript" src="/Portal/headers/MPOnlineHeader/aes.js"></script>
+    <script language="javascript" src="/Portal/headers/MPOnlineHeader/slide.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Portal/headers/MPOnlineHeader/MPOnlineCrypto.js"></script>
+    <script type="text/javascript" src="/Portal/headers/Master/js/LoginValidation.js"></script>
+    
+
+    <script language="javascript" src="/Portal/headers/MPOnlineHeader/Ticker.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript" src="headers/Master/js/shaencryption.js"></script>
+    <script type="text/javascript">
+
+        function doClick(buttonName, e) {
+
+            //the purpose of this function is to allow the enter key to 
+            //point to the correct button to click.
+            var key;
+
+            if (window.event)
+                key = e.which;     //firefox
+
+            if (key == 13) {
+                //Get the button the user wants to have clicked
+                var btn = document.getElementById(buttonName);
+                alert(btn);
+                if (btn != null) { //If we find the button click it
+                    btn.click();
+                    event.keyCode = 0
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="./" id="form1" autocomplete="off">
+<div>
+<input type="hidden" name="__AntiXsrfToken" id="__AntiXsrfToken" value="4e64fd363f2d4556afa231c650e6cbcb" />
+<input type="hidden" name="_AntiXsrfUnqTkn" id="_AntiXsrfUnqTkn" value="77b106118724459b8216e804f42dcc6d" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="P3pu5sct2JAIUe9AnFRCvAy3DeFLQenQzLqdz9EzSC0A/0DRBplJDyDxuBGelrD21OYW/1zHE1177YZEKtcNk7DqvSno2pmx9zj5aF7zqkDi7jdXrbWHX8Jea14M0v4zPNnA3/eEgs1Z9He4S4jX51QYw5bZzrsMNc/rDneGNo6ONfYpFFhT0x2j255mPsgBIAtxnxx0U8BaVB4fBjIdxR8HxNWbS+U1BYBCmqex0y+eRdqsBI8dva7Dw1a+E1jKxZbnBic+m+9wTTTvgKawAZ16VymEbBsRx8R9faYwMo0EOl6Y0shxxGm9PImkFXhp5MyKJa+5A+JOvesigUQDOwkQBfJ6uj1mWrSrwEqJ3BBgek3b4gxmRIH0/vhJ5TFuaZm6P0ELUJgzGoUeRNaayOOy6FMWSDmBJebLxEqQf6/o/8D2mY+sfJsEuXsAXknyBLbB03U/MNg+B3eO8z/qrJBDJkCE03o7j8CwA7oNNSaz3E9zDau3pIgcG8pBSreNO4N56Ejn/6yOVxAT+VhQfUUzRFjw9/2YdHRTidIiMrC7egIGG+L0LUW/LkJlRqdw6RzE8KPA/+1J9dP/Qp6Mr0VjP7u6XKj1Ffz53MpIGOLQVWVkOENDdIU0adSSH5YkiNdCtOd2nTpuLmYu4BkxjzNsARqzpNfTDUevDfNinGZAwbZ0W+q468PF408k0J4d2yOwHQy0Yv82AU4t9Teb2AeJXkkw4PvdF+/8TM18a0LKnm0Vg60J8j5fWiCv8L/ud5pH3qXoWZ1OL+59S2Yp4hQCmupsPxxTF/yAFVxHZcKJSQPKfWLXLm06E+sTcHKyO/yPhSpapqPWbyd7SGjTl3iGw8Pw0kil9TubKj7VMggLx8WtKmhXc2fIyf6SBCXMnm8db9/HU/J7KSTqi/pZChijdy/SBNGg8LonUZPCMoCkh7VuYPi57FCkF3QDg+zU8x1zAsOCqZeZ0TD6Q+qbc9kiMHrpWhMgcDQiEEWdnmwzf8MszZq5m3BFTX6/JKXCrK1B7U6qo6KXbN6SCkfvHRqBN9Vkjpq+qgcNjpIMFlbZqolAkbWOFSecbQYCvLlMmg7793kK4KplfQwJuZT6/x+M/b9bIp0Q4+9BNhtCdebcK5huoPU8RMGjmdfgUb/xAVcpqxewsuhO73Si2hQN2Xn6A100fKX+zoH4MYsN4p8yJKJ3QUOmncitL0a9lqbk9cTbKvaD1wnVEofpzIOVENrRqcmMW3cWHgN7i+TFJLpDdCDPntQutrjHH7jyna8jnSnWOtWatCCu2MuOWAxkzBcGH5ReSM6hxZeYp++tLWv4FFhG0Q01O87UGYEoFAgjI9B4y2PGEMG/57eDnKT+spdtn5ebbWJzkwySYpRiSN0BAyV1YFipIlCDZIpxm3jynRr308paKNc43veR7re4eYVG4tGpm0knqGb5lgJy/AWhyv1Dc6hR2NfV7KIbCliQDd86ykA3JFdRNMNQPYQI+9d8zK2N603LqnKzGG7KCcxUQoEauJ0/rBzkoRel36rWDLIWrw==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DF200D8E" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+        
+        
+
+        <div id="outer">
+            <!--Preheader-->
+
+            <div class="preheader">
+                <div class="common_dv">
+                    <div class="lft_lnk animated bounceInLeft"><a href="/Portal/index.aspx">Home</a> | <a href="http://gramodayachitrakoot.ac.in/">Official Website</a> </div>
+
+                </div>
+            </div>
+
+            <!--header-->
+
+            <div class="header">
+                <div class="common_dv">
+                    <img src="/portal/Services/MGCGV/images/mgcgv_logo.png" alt="Department logo" class="logo_lft logo_small" />
+                    <img src="/portal/Services/MGCGV/images/mpo-logo.png" alt="Mponline Limited" class="logo_rgt logo_mpo" />
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="banner">
+            <div class="common_dv">
+                <!--About Us -->
+                <div class="about_section">
+                    <h1>
+                        <img src="/portal/Services/MGCGV/images/about_icn.png" alt="" />
+                        About University
+                        <img src="/portal/Services/MGCGV/images/about_icn.png" alt="" /></h1>
+                    <p>Mahatma Gandhi Chitrakoot Gramodaya Vishwavidyalaya was established by the Government of Madhya Pradesh through legislature by an Act(9, 1991) on February 12, 1991. The University is located on the bank of Holy River Mandakni near Sphatikshila at Chitrakoot.</p>
+
+                    <p>
+                        The University is mandated to develop human resource for the economic and social 
+development of rural people, and develops and disseminates rural technology.
+                    </p>
+
+                    <div class="btn"><a href="/Portal/Services/MGCGV/Dashboard.aspx">Services</a> <a href="/Portal/Services/MGCGV/FrmLogin.aspx">Login</a></div>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="wrapper">
+            <!-- information section-->
+
+            <div class="common_dv">
+                <div class="imp_info">
+                    <h2>
+                        <img src="/Portal/Services/MGCGV/images/head_icn.png" alt="" />
+                        Important Information 
+                        <img src="/Portal/Services/MGCGV/images/head_icn.png" alt="" /></h2>                    
+                    <marquee style="color: red; font-size:16px;">
+        "कोरोना से स्वयं का बचाव करने के साथ साथ अपने परिवार तथा परिचित योग्य उम्र के लोगों को टीका लगवाने हेतु आग्रह करना है। दो की गज दूरी और मास्क है जरूरी। हमें मिलकर देश को कोरोना से मुक्त कराना है। प्रो नरेशचन्द्र गौतम,कुलपति ,म गां चि ग्रा वि -चित्रकूट "</marquee>
+                    <div id="Div1" class="Div1"><ul><li>Regular student can apply for admission form till 30 April 2021.</li><li>Student can submit Distance 2nd Year Exam Form till 30 March 2021 </li><li>Student can submit the admission fee till 31 May 2021.</li><li>Student can apply for Gramodaya Community College Scheme (GCCS) Registration form on date 24 july 2019</li><li>
+वि. वि.  के सभी प्रकार के ऑनलाइन फॉर्म भरने एवं भुगतान करने की सुविधा सीधे छात्रों/महाविद्यालय को दी गयी है।
+ 
+डेवलपमेंट कार्यालय :- 3rd फ्लोर, स्टेट आईटी पार्क , अब्बास नगर नियर आरजीपीवी गांधी नगर, भोपाल 462036 दूरभाष : 0755 6720222 , फैक्स : 0755 4019000</li></ul></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <!--contact-->
+            <div class="contact_section">
+                <div class="common_dv">
+                    <div class="contct">
+                        <div class="add">
+                            <h2>
+                                <img src="/Portal/Services/MGCGV/images/head_icn.png" alt="" />
+                                Keep in Touch With Us 
+                                <img src="/Portal/Services/MGCGV/images/head_icn.png" alt="" /></h2>
+                            <p>
+                                <img src="/Portal/Services/MGCGV/images/add_icon.png" alt="" />Chitrakoot, Satna, <span class="pin">Madhya Pradesh - 485334</span>
+                            </p>
+                            <p>
+                                <img src="/Portal/Services/MGCGV/images/email_icon.png" alt="" />mgcgv[at]gmail[dot]com
+                            </p>
+                            <p>
+                                <img src="/Portal/Services/MGCGV/images/phn_icon.png" alt="" />+91 7670-265413
+                            </p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </form>
+    <div class="footer">
+        Powered By :
+        <img src="/portal/Services/MGCGV/images/mpo-footer.png" alt="" />
+    </div>
+    <script type="text/javascript" src="/portal/Services/MGCGV/js/jquery.min.js"></script>
+    <script src="/portal/Services/MGCGV/js/custom_scroll.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/portal/Services/MGCGV/js/common.js"></script>
+
+
+</body>
+</html>
